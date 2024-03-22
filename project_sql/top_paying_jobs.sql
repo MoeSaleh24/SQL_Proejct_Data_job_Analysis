@@ -18,6 +18,8 @@ ORDER BY
       salary_year_avg DESC
 LIMIT 10;
 
+
+-- Created a veiw here, just in case I wanted to use this query again later
 CREATE VIEW top_paying_jobs AS (
 SELECT
     job_id AS job_id,    
